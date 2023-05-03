@@ -1,0 +1,32 @@
+@import 'vars';
+
+.header{
+	display: flex;
+	padding: 29px;
+	justify-content: space-between;
+	border-bottom: 2px solid var(--blue);
+}
+.left{
+	display: flex;
+	justify-content: center;
+}
+.right{
+	display: flex;
+	justify-content: center;
+}
+.left p{
+	font-size: 30px; 
+	margin: 0;
+}
+.right p{
+	font-size:20px;	
+	margin-right:10px;
+}
+.logout{
+	display:flex;
+	margin-left:20px;
+	align-items:center;
+}
+.logout svg{
+	cursor:pointer;
+}

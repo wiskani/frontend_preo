@@ -1,0 +1,20 @@
+@import 'vars';
+
+
+.ButtonContainer{
+    display: inline-flex;
+    align-items: center;
+    justify-content:center;
+}
+.ButtonLink{
+    display: inline-flex;
+    align-items: center;
+    justify-content:center;
+    margin-left:10px;
+}
+
+.ButtonBar{
+    width:3px;
+    height:22px;
+}
+
